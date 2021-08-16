@@ -9,18 +9,43 @@
     <title>Document</title>
 </head>
 
-<body>
-    <div class="container">
-        <p id="para" onclick="call()">Hello</p>
+<body class="row-section">
+    <header>
+        <div class="container-nav bg-color">
+            <label class="heading-wrapper">
+                School Website
+            </label>
+            <ul class="list-wrapper">
+
+                <li>Home</li>
+                <li>About</li>
+                <li>Gallery</li>
+            </ul>
+
+        </div>
+    </header>
+    <div class="form-wrapper container-nav">
+        <div class="form-wrapper1">
+            <div class="border-length ">
+                <label class="form-heading">Sign up Form-</label>
+            </div>
+            <div class="form-margin">
+                <form class="sign-up-form">
+                    <label>UserName:</label>
+                    <input type="text">
+                    <label>Password:</label>
+                    <input type="password">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </div>
+        </div>
     </div>
+
+
+    <footer>
+
+    </footer>
 </body>
-
-<script>
-    function call() {
-
-        document.getElementById("para").innerHTML = "Siddharth";
-
-    }
-</script>
 
 </html>
